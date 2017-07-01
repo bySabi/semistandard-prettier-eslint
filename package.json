@@ -1,0 +1,40 @@
+{
+  "name": "semistandard-prettier-eslint",
+  "version": "1.0.0",
+  "description": "Code -> prettier -> semistandard --fix -> Formatted Code",
+  "keywords": [
+    "prettier",
+    "eslint",
+    "prettier-eslint",
+    "linter",
+    "standard",
+    "standard-engine",
+    "semistandard"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "lint": "semistandard --fix --verbose | snazzy",
+    "format": "prettier-eslint --write '**/*.js' --eslint-path=."
+  },
+  "dependencies": {
+    "standard-cliengine": "1.x.x",
+    "semistandard": "*"
+  },
+  "devDependencies": {
+    "snazzy": "*",
+    "prettier-eslint-cli": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bySabi/semistandard-prettier-eslint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bySabi/semistandard-prettier-eslint/issues"
+  },
+  "homepage": "https://github.com/bySabi/semistandard-prettier-eslint#readme",
+  "author": "bySabi Files",
+  "license": "MIT"
+}
