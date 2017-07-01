@@ -1,9 +1,9 @@
 # semistandard-prettier-eslint
 
-Formats your JavaScript using [`prettier`](https://github.com/jlongster/prettier) followed by [`semistandard --fix`][semistandard]
-
 [![npm version](https://badge.fury.io/js/semistandard-prettier-eslint.svg)](https://badge.fury.io/js/semistandard-prettier-eslint)
 [![npm downloads](https://img.shields.io/npm/dm/semistandard-prettier-eslint.svg?style=flat-square)](https://www.npmjs.com/package/semistandard-prettier-eslint)
+
+Formats your JavaScript using [`prettier`](https://github.com/jlongster/prettier) followed by [`semistandard --fix`][semistandard]
 
 *  [prettier](https://github.com/prettier/prettier) is a wonderful tool for code prettify.
 *  [semistandard][semistandard] is `zero configuration pain` tool based on ESLint.
