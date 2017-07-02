@@ -16,7 +16,7 @@
     "node": ">=4.0.0"
   },
   "scripts": {
-    "lint": "semistandard --fix --verbose | snazzy",
+    "lint": "semistandard --verbose | snazzy",
     "format": "prettier-eslint --write '**/*.js' --eslint-path=."
   },
   "dependencies": {
