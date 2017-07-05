@@ -20,8 +20,8 @@ Ex: package.json
 "scripts": {
   ...
   "lint": "semistandard --verbose | snazzy",
-  "custom:format": "prettier-eslint --no-bracket-spacing --eslint-path=node_modules/semistandard-prettier-eslint",
-  "format": "npm run custom:format -- --write '**/*.js'"
+  "format": "npm run __format -- --write '**/*.js'",
+  "__format": "prettier-eslint --no-bracket-spacing --eslint-path=node_modules/semistandard-prettier-eslint"
 }
 ```
 
