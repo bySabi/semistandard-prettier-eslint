@@ -25,6 +25,10 @@ Ex: package.json
 }
 ```
 
+## Standalone CLI
+[prettier-semi-cli](https://github.com/bySabi/prettier-semi-cli) is the cli version.
+Created for simplify package.json `scripts` settings and use globally.
+
 ### If you don't like `semicolons` use **standard** version
 * [standard-prettier-eslint](https://github.com/bySabi/standard-prettier-eslint)
 

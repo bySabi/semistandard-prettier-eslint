@@ -1,6 +1,6 @@
 {
   "name": "semistandard-prettier-eslint",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Code -> prettier -> semistandard --fix -> Formatted Code",
   "keywords": [
     "prettier",
